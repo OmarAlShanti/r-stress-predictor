@@ -4,9 +4,8 @@ library(ggplot2)
 library(dplyr)
 rm(list=ls()) 
 
-#setwd("C:/Users/nitin/OneDrive/Desktop/Fall23/BUAN 6337 PredictiveAnalytics/Project/Project_Files")
-setwd("~/Documents/UT Dallas/Predictive/Final Project")
-data <- read.csv("StressLevelDataset.csv")
+# Run from the repo root (r-stress-predictor):  source("scripts/exploration.R")
+data <- read.csv("data/StressLevelDataset.csv")
 head(data)
 
 # Removing duplicates and null values
